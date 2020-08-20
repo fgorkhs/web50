@@ -7,20 +7,30 @@
         <link rel="stylesheet" href="googStyle.css">
     </head>
     <body>
-        <div class='searchDiv'>
-            <h1 class='googleLogo' >
-                <span style="color:orangered">Not</span><span style="color: steelblue;">Google</span>
-            </h1>
-            <form action="https://google.com/search">
-                <input class= "form-control form-control-lg" style="width: 50pc; align-self: center;" type="text" name="q">
-                <br>
-                <input type="submit" value="Google Search">
-                <input type="submit" value="Lucky Search">
-                <!-- Additional libraries for bootstrap -->
-                <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-            </form>
+        <div class='linksDiv'>
+            <a href="https://www.nytimes.com" class="btn btn-light" role="button" aria-pressed="true">Image Search</a>
+            <a href="https://www.washingtonpost.com" class="btn btn-light" role="button" aria-pressed="true">Advanced Search</a>
+        </div>
+        <div class='container'>
+            <div class="row" style="height:480px;">
+                <div class="col-lg-3"></div>
+                <div class='col-lg-6 searchDiv'>
+                    <h1 class='googleLogo' >
+                        <span style="color:orangered">Not</span><span style="color: steelblue;">Google</span>
+                    </h1>
+                    <form action="https://google.com/search">
+                        <input class= "form-control form-control-lg searchBar" style="align-self: center;" type="text" name="q">
+                        <br>
+                        <input type="submit" class='btn btn-light' value="Google Search">
+                        <input type="submit" class='btn btn-light' value="I'm Feeling Lucky">
+                        <!-- Additional libraries for bootstrap -->
+                        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+                        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+                        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+                    </form>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
         </div>
     </body>
 </html>
