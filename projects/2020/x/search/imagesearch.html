@@ -12,21 +12,25 @@
     </head>
     <body>
         <div class='linksDiv'>
-            <a href="https://www.nytimes.com" class="btn btn-light" role="button" aria-pressed="true">Image Search</a>
+            <a href="search.html" class="btn btn-light" role="button" aria-pressed="true">Search</a>
             <a href="https://www.washingtonpost.com" class="btn btn-light" role="button" aria-pressed="true">Advanced Search</a>
         </div>
         <div class='container'>
             <div class="row" style="height:480px;">
                 <div class="col-lg-3"></div>
                 <div class='col-lg-6 searchDiv'>
-                    <h1 class='googleLogo' >
-                        <span style="color:orangered">Not</span><span style="color: steelblue;">Google</span>
-                    </h1>
-                    <form action="https://google.com/search">
+                    <div>
+                        <h1 class='googleLogo' >
+                            <span style="color:orangered">Not</span><span style="color: steelblue;">Google</span>
+                        </h1>
+                        <h2 class="subHeadText" style="position: relative; left: 195px; top: -20px;">Images</h2>
+                    </div>
+
+                    <form action="https://google.com/images">
                         <input class= "form-control form-control-lg searchBar" style="align-self: center;" type="text" name="q">
                         <br>
-                        <button type="submit" class='btn btn-light'>Google Search</button>
-                        <button name="btnI" type="submit" class='btn btn-light' value="1">I'm Feeling Lucky</button>
+                        <button name="isch" type="submit" class='btn btn-light'>Google Search</button>
+                        <!-- <button name="btnI" type="submit" class='btn btn-light' value="1">I'm Feeling Lucky</button> -->
                         <!-- Additional libraries for bootstrap -->
                         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
                         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
@@ -38,3 +42,4 @@
         </div>
     </body>
 </html>
+<!-- https://www.google.com/search?tbm=isch&q=cat -->

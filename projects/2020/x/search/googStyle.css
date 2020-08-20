@@ -7,6 +7,14 @@
     margin-bottom: 40px;
 }
 
+.subHeadText {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: -40px;
+    color: orangered;
+}
+
 .searchDiv {
     text-align: center;
     margin-top: auto;
