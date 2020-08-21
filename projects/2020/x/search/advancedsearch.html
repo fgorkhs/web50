@@ -12,37 +12,39 @@
     </head>
     <body>
         <div class='linksDiv'>
-            <a href="search.html" class="btn btn-light" role="button" aria-pressed="true">Search</a>
-            <a href="imagesearch.html" class="btn btn-light" role="button" aria-pressed="true">Image Search</a>
-        </div>
-        <div style="padding-left: 10px;">
-            <h1 class='googleLogo' style="font-size: 40px; text-align: left;">
-                <span style="color:orangered;">Not</span><span style="color: steelblue;">Google</span><span style="color:mediumseagreen;">Advanced</span>
-            </h1>
-        </div>
-        <div style="padding-left: 10px;">
-        
-        
-        </div>
-
-        <div class='container'>
-            <div class="row" style="height:480px;">
-                <div class="col-lg-3"></div>
-                <div class='col-lg-6 searchDiv'>
-
-                    <form action="https://google.com/search">
-                        <input class= "form-control form-control-lg searchBar" style="align-self: center;" type="text" name="q">
-                        <br>
-                        <button type="submit" class='btn btn-light'>Google Search</button>
-                        <button name="btnI" type="submit" class='btn btn-light' value="1">I'm Feeling Lucky</button>
-                        <!-- Additional libraries for bootstrap -->
-                    </form>
-                </div>
-                <div class="col-md-3"></div>
+            <span>
+                <h1 class='googleLogo' style="font-size: 30px; float: left;">
+                    <span style="color:orangered;">Not</span><span style="color: steelblue;">Google</span>
+                </h1>
+            </span>
+            <span style="float: right;">
+                <a href="search.html" class="btn btn-light" role="button" aria-pressed="true">Search</a>
+                <a href="imagesearch.html" class="btn btn-light" role="button" aria-pressed="true">Image Search</a>
+            </span>
+            <div style="clear: both;">
             </div>
         </div>
+        <div style="padding-left: 40px;">
+            <h2 class='googleLogo' style="font-size: 25px; text-align: left; color:crimson;">Advanced Search</h2></span>
+            <hr>    
+            <h3>Find pages with...</h3>
+        </div>
+        <form action="https://www.google.com/advanced_search" id='grid' style="width: 800px;">
+            <div class="gridItem">All these words:</div>
+            <div class="gridItem"><input class= "form-control" type="text" name="q"></div>
+            <div class="gridItem">this exact word or phrase:</div>
+            <div class="gridItem"><input class= "form-control" type="text" name="q"></div>
+            <div class="gridItem">any of these words:</div>
+            <div class="gridItem"><input class= "form-control" type="text" name="q"></div>
+            <div class="gridItem">none of these words:</div>
+            <div class="gridItem"><input class= "form-control" type="text" name="q"></div>
+            <div></div>
+            <div style="text-align: right;"><button type="submit" class='btn btn-primary'>Advanced Search</button></div>
+        </form>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     </body>
 </html>
+
+<!-- https://www.google.com/search?as_q=all&as_epq=exact&as_oq=any&as_eq=none&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=&tbs= -->
